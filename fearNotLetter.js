@@ -1,3 +1,7 @@
+// Missing letters
+// Find the missing letter in the passed letter range and return it.
+// If all letters are present in the range, return undefined.
+
 "use strict" 
   fearNotLetter("abce");function fearNotLetter(str) {
   let testStr = "abcdefghijklmnopqrstuvwxyz";
@@ -11,5 +15,8 @@
     }
   }
 }
-
 console.log(fearNotLetter("abce"));
+console.log(fearNotLetter("abcdefghjklmno"));
+console.log(fearNotLetter("stvwx"));
+console.log(fearNotLetter("bcdf"));
+console.log(fearNotLetter("abcdefghijklmnopqrstuvwxyz"));
